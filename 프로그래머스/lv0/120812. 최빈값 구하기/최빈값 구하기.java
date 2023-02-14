@@ -2,7 +2,7 @@ class Solution {
     public int solution(int[] array) {
         int answer = 0;
         
-        int[] index = new int[1001];
+        int[] index = new int[1000];
         int max = 0;
         
         for(int i = 0; i < array.length; i++) {
