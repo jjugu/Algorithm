@@ -2,6 +2,7 @@ class Solution {
     public int solution(int order) {
         int answer = 0;
         String strOrder = "" + order;
+        
         for (int i = 0; i < strOrder.length(); i++) {
             char tempChar = strOrder.charAt(i);
 
