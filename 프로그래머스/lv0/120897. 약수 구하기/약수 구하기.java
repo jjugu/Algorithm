@@ -9,6 +9,7 @@ class Solution {
 				index++;
 			}
 		}
+        
 		int[] answer = new int [index];
 		for(int i = 0; i < index; i++) {
 			if(arry[i] != 0) {
